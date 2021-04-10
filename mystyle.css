@@ -1,0 +1,36 @@
+body {
+    background-color:indianred;
+}
+.container {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media only screen and (max-width: 500px) {
+
+}
+.container .box-1 {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-between;
+    border-color: black;
+    border-style: double;
+}
+.container .box-2 {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-between;
+    border-color: black;
+    border-style: double;
+}
+.container .box-1 h1 {
+    color:darkblue;
+    margin:30px;
+}
+.container .box-2 h1 {
+    color:purple;
+    margin:30px;
+}
